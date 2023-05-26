@@ -1,7 +1,7 @@
 "Status","Name","Duration in ms","Description"
-"passed","TestCase.test_Debug.TestDemo#test_multiple_attachments","6",""
-"failed","TestCase.test_Debug.TestDemo#test_demo3","43",""
-"passed","TestCase.test_Debug.TestDemo#test_demo2","19","前置附件
+"passed","TestCase.test_Debug.TestDemo#test_multiple_attachments","7",""
+"passed","TestCase.test_Debug.TestDemo#test_demo2","17","前置附件
 测试附件
 后置附件"
-"passed","TestCase.test_Debug.TestDemo#test_demo1","3","这是最后的描述"
+"failed","TestCase.test_Debug.TestDemo#test_demo3","11",""
+"passed","TestCase.test_Debug.TestDemo#test_demo1","4","这是最后的描述"

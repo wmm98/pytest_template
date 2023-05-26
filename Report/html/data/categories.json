@@ -7,15 +7,15 @@
       "name" : "AssertionError: ######### test case 3 fail #################",
       "children" : [ {
         "name" : "Testcase_3",
-        "uid" : "c45333dcba2e0f19",
+        "uid" : "7057a9ff87ff3019",
         "parentUid" : "cd1735c83067476eb2ecb48a927c02b9",
         "status" : "failed",
         "time" : {
-          "start" : 1683531081523,
-          "stop" : 1683531081566,
-          "duration" : 43
+          "start" : 1685067269881,
+          "stop" : 1685067269892,
+          "duration" : 11
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "cd1735c83067476eb2ecb48a927c02b9"

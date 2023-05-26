@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c45333dcba2e0f19",
+      "uid" : "7057a9ff87ff3019",
       "status" : "failed",
       "statusDetails" : "AssertionError: ######### test case 3 fail #################",
       "time" : {
-        "start" : 1683531081523,
-        "stop" : 1683531081566,
-        "duration" : 43
+        "start" : 1685067269881,
+        "stop" : 1685067269892,
+        "duration" : 11
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3b9cba616f9a0b2d",
+      "uid" : "976ceb3b6aed0e6d",
       "status" : "passed",
       "time" : {
-        "start" : 1683531077427,
-        "stop" : 1683531077430,
-        "duration" : 3
+        "start" : 1685067265799,
+        "stop" : 1685067265803,
+        "duration" : 4
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "803941ad1126e8ed",
+      "uid" : "dedcd9dad885b465",
       "status" : "passed",
       "time" : {
-        "start" : 1683531083754,
-        "stop" : 1683531083760,
-        "duration" : 6
+        "start" : 1685067271999,
+        "stop" : 1685067272006,
+        "duration" : 7
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74bc9b895da4ba59",
+      "uid" : "d8f2869ad78e8440",
       "status" : "passed",
       "time" : {
-        "start" : 1683531079479,
-        "stop" : 1683531079498,
-        "duration" : 19
+        "start" : 1685067267836,
+        "stop" : 1685067267853,
+        "duration" : 17
       }
     } ]
   }
