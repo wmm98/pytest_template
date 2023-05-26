@@ -1,0 +1,49 @@
+HON*emea&1357
+root@am57xx-hs-evm:~#
+
+cd /home/admin/conf/
+curl -O -u root:123456 ftp://192.168.1.121:2121/dafengchui.dbp
+curl -O ftp://192.168.1.10/config.xml
+curl -O ftp://192.168.1.10/system_entities.xml
+curl -O ftp://192.168.1.10/audio_database.xml
+
+curl -T config.xml ftp://192.168.1.10/
+curl -T system_entities.xml ftp://192.168.1.10/
+curl -T audio_database.xml ftp://192.168.1.10/
+
+alsamixer -c2
+alsamixer -c4
+
+
+cd /home/admin/upgrade/
+curl -O ftp://192.168.1.11/devupgrade.tar.gz
+
+cd /home/admin/applications/emeabox/
+./upgrade
+
+
+
+./vol pa 1.1 4 save
+./vol pa 2.1 4 save
+./vol pa 3.1 4 save
+
+./test_swmode normal
+
+
+./vol PA 2.1 0
+
+
+fw_setenv bootcmd run gnp_dal_boot
+fw_setenv bootcmd run gnp_audio_boot
+
+./devtype INC-D
+DevType: INC-D    ； INC-A  ; INC
+
+audio board  line in ,test_ext_audio_avc close
+
+
+cd /home/admin/upgrade
+HON*emea&1357
+curl http://192.168.1.10:80/devupgrade.tar.gz --output /home/admin/upgrade/devupgrade.tar.gz
+
+curl -O ftp://192.168.1.10/devupgrade.tar.gz
