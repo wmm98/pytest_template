@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase.test_Debug",
+    "children" : [ {
+      "name" : "Testcase_1",
+      "uid" : "3b9cba616f9a0b2d",
+      "parentUid" : "d49fa0aa1a7e368edc2b7c1e7c6b5add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531077427,
+        "stop" : 1683531077430,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testcase_2",
+      "uid" : "74bc9b895da4ba59",
+      "parentUid" : "d49fa0aa1a7e368edc2b7c1e7c6b5add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531079479,
+        "stop" : 1683531079498,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testcase_3",
+      "uid" : "c45333dcba2e0f19",
+      "parentUid" : "d49fa0aa1a7e368edc2b7c1e7c6b5add",
+      "status" : "failed",
+      "time" : {
+        "start" : 1683531081523,
+        "stop" : 1683531081566,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testcase_4_body_attachment",
+      "uid" : "803941ad1126e8ed",
+      "parentUid" : "d49fa0aa1a7e368edc2b7c1e7c6b5add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531083754,
+        "stop" : 1683531083760,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestCase.test_Debug"
+  } ]
+}

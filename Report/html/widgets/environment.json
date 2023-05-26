@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "2022.11.13" ],
+  "name" : "date"
+}, {
+  "values" : [ "Author" ],
+  "name" : "author"
+}, {
+  "values" : [ "Framework debug" ],
+  "name" : "projectName"
+} ]

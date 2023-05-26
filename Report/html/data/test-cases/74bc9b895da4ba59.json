@@ -1,0 +1,245 @@
+{
+  "uid" : "74bc9b895da4ba59",
+  "name" : "Testcase_2",
+  "fullName" : "TestCase.test_Debug.TestDemo#test_demo2",
+  "historyId" : "bfa71e990aa3b6612a6f4050de79d98b",
+  "time" : {
+    "start" : 1683531079479,
+    "stop" : 1683531079498,
+    "duration" : 19
+  },
+  "description" : "前置附件\n测试附件\n后置附件",
+  "descriptionHtml" : "<p>前置附件\n测试附件\n后置附件</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "attach_file_in_module_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1683531079466,
+      "stop" : 1683531079478,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9bea31916de847",
+      "name" : "fixture前置附件",
+      "source" : "f9bea31916de847.txt",
+      "type" : "text/plain",
+      "size" : 49
+    }, {
+      "uid" : "d6018283ea427c38",
+      "name" : "Attach with HTML type",
+      "source" : "d6018283ea427c38.html",
+      "type" : "text/html",
+      "size" : 44
+    }, {
+      "uid" : "c2f2caf03c2003e5",
+      "name" : "556b1aa0-694c-42cc-8420-93c6c866cbb3-attachment.html",
+      "source" : "c2f2caf03c2003e5.html",
+      "type" : "text/html",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "login_session",
+    "time" : {
+      "start" : 1683531079465,
+      "stop" : 1683531079465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "前置附件\n测试附件\n后置附件",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "getXlsData--检查数据",
+      "time" : {
+        "start" : 1683531079486,
+        "stop" : 1683531079497,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "这是嵌套使用,只为了显示效果",
+        "time" : {
+          "start" : 1683531079486,
+          "stop" : 1683531079486,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "casename",
+        "value" : "'test case 2'"
+      }, {
+        "name" : "excelname",
+        "value" : "'testDemo.xls'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "assertText--验证结果",
+      "time" : {
+        "start" : 1683531079498,
+        "stop" : 1683531079498,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "check_result",
+        "value" : "[['对比字符串1', '对比字符串2'], ['对比字符串1', '对比字符串2'], 'test case 2']"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a001d036dc93ab4e",
+      "name" : "Attach with HTML type",
+      "source" : "a001d036dc93ab4e.html",
+      "type" : "text/html",
+      "size" : 45
+    }, {
+      "uid" : "f311b202986de183",
+      "name" : "fdb2903f-0d63-47a4-bc44-f11a1fe021e1-attachment.html",
+      "source" : "f311b202986de183.html",
+      "type" : "text/html",
+      "size" : 48
+    }, {
+      "uid" : "a275c9ee2570efb",
+      "name" : "log",
+      "source" : "a275c9ee2570efb.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "attach_file_in_module_scope_fixture_with_finalizer::finalizer_module_scope_fixture",
+    "time" : {
+      "start" : 1683531079499,
+      "stop" : 1683531079501,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb6acd520ca9b537",
+      "name" : "fixture后置附件",
+      "source" : "fb6acd520ca9b537.txt",
+      "type" : "text/plain",
+      "size" : 49
+    }, {
+      "uid" : "e15f247249920d66",
+      "name" : "60a0a4e8-1a42-49b2-8eba-fe193de8c671-attachment.html",
+      "source" : "e15f247249920d66.html",
+      "type" : "text/html",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "login_session::0",
+    "time" : {
+      "start" : 1683531079503,
+      "stop" : 1683531081511,
+      "duration" : 2008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "pytest_debug"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Debug"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "MS-QBKMACMUFRSK"
+  }, {
+    "name" : "thread",
+    "value" : "14064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_Debug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "权限管理异常",
+    "url" : "www.zhiliaol.com",
+    "type" : "issue"
+  }, {
+    "name" : "权限管理功能",
+    "url" : "www.baidu.com",
+    "type" : "tms"
+  }, {
+    "name" : "www.zhihu.com",
+    "url" : "www.zhihu.com",
+    "type" : "这是该功能链接"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74bc9b895da4ba59.json",
+  "parameterValues" : [ ]
+}

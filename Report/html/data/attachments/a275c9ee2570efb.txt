@@ -1,0 +1,1 @@
+INFO     root:Log.py:112 [INFO 2023-05-08 15:31:19]######### test case 2 pass #################

@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "pytest_debug",
+    "children" : [ {
+      "name" : "Testcase_1",
+      "uid" : "3b9cba616f9a0b2d",
+      "parentUid" : "df9d2c905fa0fd014610c8665bdb261d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531077427,
+        "stop" : 1683531077430,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testcase_2",
+      "uid" : "74bc9b895da4ba59",
+      "parentUid" : "df9d2c905fa0fd014610c8665bdb261d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531079479,
+        "stop" : 1683531079498,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pytest_debug_story",
+      "children" : [ {
+        "name" : "Testcase_3",
+        "uid" : "c45333dcba2e0f19",
+        "parentUid" : "40c55285ff8c201deba007988095c331",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683531081523,
+          "stop" : 1683531081566,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40c55285ff8c201deba007988095c331"
+    } ],
+    "uid" : "df9d2c905fa0fd014610c8665bdb261d"
+  }, {
+    "name" : "pytest_debug_story",
+    "children" : [ {
+      "name" : "Testcase_4_body_attachment",
+      "uid" : "803941ad1126e8ed",
+      "parentUid" : "0488e404033e9952400aeb3ba8148352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683531083754,
+        "stop" : 1683531083760,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0488e404033e9952400aeb3ba8148352"
+  } ]
+}

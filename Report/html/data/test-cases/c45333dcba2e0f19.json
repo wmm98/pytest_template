@@ -1,0 +1,171 @@
+{
+  "uid" : "c45333dcba2e0f19",
+  "name" : "Testcase_3",
+  "fullName" : "TestCase.test_Debug.TestDemo#test_demo3",
+  "historyId" : "23195bb61b35b8ce0d0ca40ece1fd5a7",
+  "time" : {
+    "start" : 1683531081523,
+    "stop" : 1683531081566,
+    "duration" : 43
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ######### test case 3 fail #################",
+  "statusTrace" : "self = <test_Debug.TestDemo object at 0x000001AD5B702E50>, login_session = None\n\n    @allure.feature('pytest_debug')\n    @allure.story(\"pytest_debug_story\")\n    @allure.title(\"Testcase_3\")\n    def test_demo3(self, login_session):\n        case_name = \"test case 3\"\n        excel_name = \"testDemo.xls\"\n        data = check_data.getXlsData(case_name, excel_name)\n>       assert_data.assertText(data)\n\nTestCase\\test_Debug.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.AssertResult.AssertOutput object at 0x000001AD5B67BDC0>\ncheck_result = [['对比字符串2', '对比字符串2'], ['对比字符串1', '对比字符串3'], 'test case 3']\n\n    @allure.step(\"assertText--验证结果\")\n    def assertText(self, check_result):\n    \n        clean_test_result = check_result[0]\n        clean_expect_result = check_result[1]\n        casse_name = check_result[2]\n        # 列表长度：\n        len_data = len(clean_expect_result)\n        flag = 0\n        for i in range(len_data):\n            if clean_test_result[i] in clean_expect_result[i]:\n                flag += 1\n            else:\n                log.error(\"##### %s test result is not equal to expect result， pls check the data#################\" % (\n                    casse_name))\n    \n        # flag的大小等于列表长度，则返回Ture, 否则返回false\n        if flag == len_data:\n            log.info(\"######### %s pass #################\" % casse_name)\n            return True\n        else:\n            log.error(\"######### %s fail #################\" % casse_name)\n>           assert False, \"######### %s fail #################\" % casse_name\nE           AssertionError: ######### test case 3 fail #################\n\nCommon\\AssertResult.py:44: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_session",
+    "time" : {
+      "start" : 1683531081522,
+      "stop" : 1683531081522,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: ######### test case 3 fail #################",
+    "statusTrace" : "self = <test_Debug.TestDemo object at 0x000001AD5B702E50>, login_session = None\n\n    @allure.feature('pytest_debug')\n    @allure.story(\"pytest_debug_story\")\n    @allure.title(\"Testcase_3\")\n    def test_demo3(self, login_session):\n        case_name = \"test case 3\"\n        excel_name = \"testDemo.xls\"\n        data = check_data.getXlsData(case_name, excel_name)\n>       assert_data.assertText(data)\n\nTestCase\\test_Debug.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.AssertResult.AssertOutput object at 0x000001AD5B67BDC0>\ncheck_result = [['对比字符串2', '对比字符串2'], ['对比字符串1', '对比字符串3'], 'test case 3']\n\n    @allure.step(\"assertText--验证结果\")\n    def assertText(self, check_result):\n    \n        clean_test_result = check_result[0]\n        clean_expect_result = check_result[1]\n        casse_name = check_result[2]\n        # 列表长度：\n        len_data = len(clean_expect_result)\n        flag = 0\n        for i in range(len_data):\n            if clean_test_result[i] in clean_expect_result[i]:\n                flag += 1\n            else:\n                log.error(\"##### %s test result is not equal to expect result， pls check the data#################\" % (\n                    casse_name))\n    \n        # flag的大小等于列表长度，则返回Ture, 否则返回false\n        if flag == len_data:\n            log.info(\"######### %s pass #################\" % casse_name)\n            return True\n        else:\n            log.error(\"######### %s fail #################\" % casse_name)\n>           assert False, \"######### %s fail #################\" % casse_name\nE           AssertionError: ######### test case 3 fail #################\n\nCommon\\AssertResult.py:44: AssertionError",
+    "steps" : [ {
+      "name" : "getXlsData--检查数据",
+      "time" : {
+        "start" : 1683531081523,
+        "stop" : 1683531081536,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "这是嵌套使用,只为了显示效果",
+        "time" : {
+          "start" : 1683531081524,
+          "stop" : 1683531081524,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "casename",
+        "value" : "'test case 3'"
+      }, {
+        "name" : "excelname",
+        "value" : "'testDemo.xls'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "assertText--验证结果",
+      "time" : {
+        "start" : 1683531081536,
+        "stop" : 1683531081539,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: ######### test case 3 fail #################\n",
+      "statusTrace" : "  File \"D:\\Mingming\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"E:\\Mingming\\Telpo_Automation\\pytest_debug\\Common\\AssertResult.py\", line 44, in assertText\n    assert False, \"######### %s fail #################\" % casse_name\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "check_result",
+        "value" : "[['对比字符串2', '对比字符串2'], ['对比字符串1', '对比字符串3'], 'test case 3']"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d2e62983d721ba08",
+      "name" : "log",
+      "source" : "d2e62983d721ba08.txt",
+      "type" : "text/plain",
+      "size" : 398
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login_session::0",
+    "time" : {
+      "start" : 1683531081720,
+      "stop" : 1683531083728,
+      "duration" : 2008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "pytest_debug"
+  }, {
+    "name" : "story",
+    "value" : "pytest_debug_story"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Debug"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "MS-QBKMACMUFRSK"
+  }, {
+    "name" : "thread",
+    "value" : "14064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_Debug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c45333dcba2e0f19.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: ######### test case 3 fail #################",
+      "children" : [ {
+        "name" : "Testcase_3",
+        "uid" : "c45333dcba2e0f19",
+        "parentUid" : "cd1735c83067476eb2ecb48a927c02b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683531081523,
+          "stop" : 1683531081566,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd1735c83067476eb2ecb48a927c02b9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
