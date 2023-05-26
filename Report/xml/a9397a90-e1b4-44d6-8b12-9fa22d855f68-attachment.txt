@@ -1,0 +1,3 @@
+ERROR    root:Log.py:124 [ERROR 2023-05-08 15:31:21]##### test case 3 test result is not equal to expect result， pls check the data#################
+ERROR    root:Log.py:124 [ERROR 2023-05-08 15:31:21]##### test case 3 test result is not equal to expect result， pls check the data#################
+ERROR    root:Log.py:124 [ERROR 2023-05-08 15:31:21]######### test case 3 fail #################
